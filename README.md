@@ -22,7 +22,7 @@ Linux自动化交换空间管理工具​​
 
 ### 1. 下载脚本
 ```bash
-wget -O swap-manager.sh "你的脚本下载链接"
+wget https://github.com/Kalpa0448/swap-manager/releases/download/1.0/swap-manager.sh
 chmod +x swap-manager.sh
 ```
 
@@ -135,5 +135,4 @@ dmesg | grep -i swap
 - 执行前确保有足够的磁盘空间
 - 建议在系统空闲时操作，避免影响性能
 - Btrfs 用户请注意交换文件不会被快照包含
-- 重启后交换文件需要重新启用（已配置开机自启）
 
